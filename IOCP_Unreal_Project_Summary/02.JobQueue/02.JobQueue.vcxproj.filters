@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="02.일감처리">
+      <UniqueIdentifier>{eb5ad964-4d6f-4231-8fea-bb3de0018bd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.일감예약">
+      <UniqueIdentifier>{8f070505-70bf-4670-8772-3637f5a5a1d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.일감예약\02.TLS 변수 선언">
+      <UniqueIdentifier>{e0ce2257-b441-40e5-9193-5c573fc4813e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.일감예약\01.패킷처리">
+      <UniqueIdentifier>{4b0e6630-e130-4f7d-abf5-fba26d7635fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.일감예약\03.일감예약">
+      <UniqueIdentifier>{c7e0486a-9ab7-4bd4-98f0-f104db30feb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.일감예약\03.일감예약\01.JobQueue">
+      <UniqueIdentifier>{bfe15eb3-b31b-4478-8eac-36d348f3cfc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.일감예약\03.일감예약\02.GlobalQueue">
+      <UniqueIdentifier>{86a06376-f8e1-4494-ba12-94479abe7089}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.일감처리\01.워커스레드">
+      <UniqueIdentifier>{04503420-d82d-4b72-ad17-474cbadcb353}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.일감처리\02.일감처리">
+      <UniqueIdentifier>{eddc6694-8c4e-4db9-b862-79d39d9bde0a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CoreTLS.cpp">
+      <Filter>01.일감예약\02.TLS 변수 선언</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientPacketHandler.cpp">
+      <Filter>01.일감예약\01.패킷처리</Filter>
+    </ClCompile>
+    <ClCompile Include="JobQueue.cpp">
+      <Filter>01.일감예약\03.일감예약\01.JobQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalQueue.cpp">
+      <Filter>01.일감예약\03.일감예약\02.GlobalQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="GameServer.cpp">
+      <Filter>02.일감처리\01.워커스레드</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadManager.cpp">
+      <Filter>02.일감처리\02.일감처리</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CoreTLS.h">
+      <Filter>01.일감예약\02.TLS 변수 선언</Filter>
+    </ClInclude>
+    <ClInclude Include="JobQueue.h">
+      <Filter>01.일감예약\03.일감예약\01.JobQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalQueue.h">
+      <Filter>01.일감예약\03.일감예약\02.GlobalQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadManager.h">
+      <Filter>02.일감처리\02.일감처리</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

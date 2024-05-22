@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="01.IocpEvent">
+      <UniqueIdentifier>{5003c01d-d1e7-4e2d-bf5b-eb10015e0fb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Dispatch">
+      <UniqueIdentifier>{96331b3a-d493-46cc-b6da-10a9e9f24003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Session">
+      <UniqueIdentifier>{88842985-a4a0-408b-af32-7217f8d3a9ce}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameServer.cpp">
+      <Filter>02.Dispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="IocpCore.cpp">
+      <Filter>02.Dispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="IocpEvent.cpp">
+      <Filter>01.IocpEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="Session.cpp">
+      <Filter>03.Session</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IocpCore.h">
+      <Filter>02.Dispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="IocpEvent.h">
+      <Filter>01.IocpEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="Session.h">
+      <Filter>03.Session</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

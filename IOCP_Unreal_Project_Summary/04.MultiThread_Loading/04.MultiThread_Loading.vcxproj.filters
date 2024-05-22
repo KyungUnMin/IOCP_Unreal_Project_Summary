@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="GameEngineThreadJobQueue.h">
+      <Filter>01.스레드 풀링</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineResource.h">
+      <Filter>02.리소스 관리</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameEngineThreadJobQueue.cpp">
+      <Filter>01.스레드 풀링</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineResource.cpp">
+      <Filter>02.리소스 관리</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="02.리소스 관리">
+      <UniqueIdentifier>{61763f8d-82fe-474a-bf6c-27fea42bb10c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.스레드 풀링">
+      <UniqueIdentifier>{92cb54a6-5228-4dd0-864e-4c2f5c5d098c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
