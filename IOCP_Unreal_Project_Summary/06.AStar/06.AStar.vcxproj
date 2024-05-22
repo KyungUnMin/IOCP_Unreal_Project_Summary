@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{dc42e8ae-c805-42aa-8144-45628e619949}</ProjectGuid>
-    <RootNamespace>My05PacketManage</RootNamespace>
+    <ProjectGuid>{235e1f82-e273-489f-908e-8bebc0e0ca5e}</ProjectGuid>
+    <RootNamespace>My06AStar</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,12 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="GameEngineDispatcher.cpp" />
-    <ClCompile Include="GameEngineNet.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="GameEngineDispatcher.h" />
-    <ClInclude Include="GameEngineNet.h" />
+    <ClCompile Include="EnemyState_WalkBase_AStar.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
